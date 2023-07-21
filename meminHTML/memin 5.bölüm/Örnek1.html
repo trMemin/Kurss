@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.box1 {
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            background-color: white;
+            overflow:auto ;
+            border-radius: 20px;
+            border-color: #a7a7a7;
+            position: absolute;
+            overflow: hidden;
+        }
+        .boxinside {
+            width: 170px;
+            height: 130px;
+            margin-top: 20px;
+            overflow: auto;
+            
+        }
+        div.box2 {
+            width: 200px;
+            height: 220px;
+            border: 1px solid black;
+            background-color: white;
+            overflow:Hidden ;
+            border-radius: 20px;
+            border-color: #a7a7a7;
+            margin-top: 20px;
+            position: relative;
+            top: 170px;
+        }
+
+        p {
+            color: #a7a7a7;
+        }
+        .ino {
+            margin-left: 20px;
+            
+        }
+        .boxinside::-webkit-scrollbar {
+            background-color: #eee;
+            width: 6px;
+            height: 6px;
+            position: relative;
+            left: 10px;
+            scroll-margin-top: 20px;
+        }
+        .boxinside::-webkit-scrollbar-corner {
+            background-color: red;
+        }
+        .boxinside::-webkit-scrollbar-thumb {
+            background: blue;
+            border-radius: 6px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <h3 style="color: blue;margin-left: 20px;">Lokasyon</h3>
+        <div class="boxinside">
+        <div><input class="ino" type="checkbox"><span> Adana</span></div>
+        <div><input class="ino" type="checkbox"><span> Adıyaman</span></div>
+        <div><input class="ino" type="checkbox"><span> Afyonkarahisar</span></div>
+        <div><input class="ino" type="checkbox"><span> Ağrı</span></div>
+        <div><input class="ino" type="checkbox"><span> Amasya</span></div>
+        <div><input class="ino" type="checkbox"><span> Antalya</span></div>
+        <div><input class="ino" type="checkbox"><span> Artvin</span></div>
+        <div><input class="ino" type="checkbox"><span> Aydın</span></div>
+        <div><input class="ino" type="checkbox"><span> Balıkesir</span></div>
+        <div><input class="ino" type="checkbox"><span> Bilecik</span></div>
+        <div><input class="ino" type="checkbox"><span> Bingöl</span></div>
+        <div><input class="ino" type="checkbox"><span> Bitlis</span></div>
+        <div><input class="ino" type="checkbox"><span> Bolu</span></div>
+        <div><input class="ino" type="checkbox"><span> Burdur</span></div>
+        <div><input class="ino" type="checkbox"><span> Bursa</span></div>
+        <div><input class="ino" type="checkbox"><span> Çanakkale</span></div>
+        <div><input class="ino" type="checkbox"><span> Çankırı</span></div>
+        <div><input class="ino" type="checkbox"><span> Çorum</span></div>
+        <div><input class="ino" type="checkbox"><span> Denizli</span></div>
+        <div><input class="ino" type="checkbox"><span> Diyarbakır</span></div>
+        <div><input class="ino" type="checkbox"><span> Edirne</span></div>
+        <div><input class="ino" type="checkbox"><span> Elazığ</span></div>
+        <div><input class="ino" type="checkbox"><span> Erzincan</span></div>
+        <div><input class="ino" type="checkbox"><span> Erzurum</span></div>
+        <div><input class="ino" type="checkbox"><span> Eskişehir</span></div>
+        <div><input class="ino" type="checkbox"><span> Gaziantep</span></div>
+        <div><input class="ino" type="checkbox"><span> Giresun</span></div>
+        <div><input class="ino" type="checkbox"><span> Gümüşhane</span></div>
+        <div><input class="ino" type="checkbox"><span> Hakkari</span></div>
+        <div><input class="ino" type="checkbox"><span> Hatay</span></div>
+        <div><input class="ino" type="checkbox"><span> Isparta</span></div>
+        <div><input class="ino" type="checkbox"><span> Mersin</span></div>
+        <div><input class="ino" type="checkbox"><span> İstanbul</span></div>
+        <div><input class="ino" type="checkbox"><span> İzmir</span></div>
+        <div><input class="ino" type="checkbox"><span> Kars</span></div>
+        <div><input class="ino" type="checkbox"><span> Kastamonu</span></div>
+        <div><input class="ino" type="checkbox"><span> Kayseri</span></div>
+        <div><input class="ino" type="checkbox"><span> Kırklareli</span></div>
+        <div><input class="ino" type="checkbox"><span> Kırşehir</span></div>
+        <div><input class="ino" type="checkbox"><span> Kocaeli</span></div>
+        <div><input class="ino" type="checkbox"><span> Kıbrıs</span></div>
+        <div><input class="ino" type="checkbox"><span> Konya</span></div>
+        <div><input class="ino" type="checkbox"><span> Kütahya</span></div>
+        <div><input class="ino" type="checkbox"><span> Malatya</span></div>
+        <div><input class="ino" type="checkbox"><span> Manisa</span></div>
+        <div><input class="ino" type="checkbox"><span> Kahramanmaraş</span></div>
+        <div><input class="ino" type="checkbox"><span> Mardin</span></div>
+        <div><input class="ino" type="checkbox"><span> Muğla</span></div>
+        <div><input class="ino" type="checkbox"><span> Muş</span></div>
+        <div><input class="ino" type="checkbox"><span> Nevşehir</span></div>
+        <div><input class="ino" type="checkbox"><span> Niğde</span></div>
+        <div><input class="ino" type="checkbox"><span> Ordu</span></div>
+        <div><input class="ino" type="checkbox"><span> Rize</span></div>
+        <div><input class="ino" type="checkbox"><span> Sakarya</span></div>
+        <div><input class="ino" type="checkbox"><span> Samsun</span></div>
+        <div><input class="ino" type="checkbox"><span> Siirt</span></div>
+        <div><input class="ino" type="checkbox"><span> Sinop</span></div>
+        <div><input class="ino" type="checkbox"><span> Sivas</span></div>
+        <div><input class="ino" type="checkbox"><span> Tekirdağ</span></div>
+        <div><input class="ino" type="checkbox"><span> Tokat</span></div>
+        <div><input class="ino" type="checkbox"><span> Trabzon</span></div>
+        <div><input class="ino" type="checkbox"><span> Tunceli</span></div>
+        <div><input class="ino" type="checkbox"><span> Şanlıurfa</span></div>
+        <div><input class="ino" type="checkbox"><span> Uşak</span></div>
+        <div><input class="ino" type="checkbox"><span> Van</span></div>
+        <div><input class="ino" type="checkbox"><span> Yozgat</span></div>
+        <div><input class="ino" type="checkbox"><span> Zonguldak</span></div>
+        <div><input class="ino" type="checkbox"><span> Aksaray</span></div>
+        <div><input class="ino" type="checkbox"><span> Bayburt</span></div>
+        <div><input class="ino" type="checkbox"><span> Karaman</span></div>
+        <div><input class="ino" type="checkbox"><span> Kırıkkale</span></div>
+        <div><input class="ino" type="checkbox"><span> Batman</span></div>
+        <div><input class="ino" type="checkbox"><span> Şırnak</span></div>
+        <div><input class="ino" type="checkbox"><span> Bartın</span></div>
+        <div><input class="ino" type="checkbox"><span> Ardahan</span></div>
+        <div><input class="ino" type="checkbox"><span> Iğdır</span></div>
+        <div><input class="ino" type="checkbox"><span> Yalova</span></div>
+        <div><input class="ino" type="checkbox"><span> Karabük</span></div>
+        <div><input class="ino" type="checkbox"><span> Kilis</span></div>
+        <div><input class="ino" type="checkbox"><span> Osmaniye</span></div>
+        <div><input class="ino" type="checkbox"><span> Düzce</span></div>
+        </div>
+
+    </div><br><br>
+    <div class="box2">
+        <h3 style="color: blue;margin-left: 20px;">Üyelik Sınıfı</h3>
+        <div><input class="ino" type="checkbox"><span>A</span></div><br>
+        <div><input class="ino" type="checkbox"><span>B</span></div><br>
+        <div><input class="ino" type="checkbox"><span>C</span></div><br>
+        <div><input class="ino" type="checkbox"><span>D</span></div>
+
+    </div>
+</body>
+</html>
